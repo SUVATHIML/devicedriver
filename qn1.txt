@@ -1,0 +1,32 @@
+apmd - Advanced Power Management Daemon
+apmd is an APM monitoring daemon, and works in conjunction with the APM BIOS driver in the OS kernel. 
+It can execute a command (normally a shell script) when certain events are reported by the driver, and will log, via syslogd(8), certain changes in system power status. 
+When the available battery power becomes very low, it can alert all users on the system using several methods. 
+
+ftpd - FTP Server Daemon
+he ftpd daemon uses the Transmission Control Protocol (TCP) to listen at the port specified with the ftp command service specification in the /etc/services file.
+
+crond - The task scheduler daemon
+The cron daemon (crond) is a system-managed executable that runs in memory with which users may schedule tasks.
+
+nfsd - Network File Sharing Daemon
+The nfsd daemon handles client file system requests.
+
+ntpd - Network Time Protocol service daemon
+The ntpd program is an operating system daemon which sets and maintains the system time of day in synchronism with Internet standard time servers.
+
+sshd - Secure Shell Server Daemon
+sshd (OpenSSH Daemon) is the daemon program for ssh. Together these programs replace rlogin and rsh, and provide secure encrypted communications between two untrusted hosts over an insecure network. 
+
+yslogd - System logging daemon
+system logging and kernel message trapping,
+Use of internet and unix domain sockets enables local and remote logging. 
+
+xntd - Network Time Server Daemon
+The ntpd program is an operating system daemon which sets and maintains the system time of day in synchronism with Internet standard time servers.
+
+mountd - mount daemon
+The rpc.mountd daemon implements the server side of the NFS MOUNT protocol.An NFS server maintains a table of local physical file systems that are accessible to NFS clients. Each file system in this table is referred to as an exported file system, or export, for short. 
+
+atd - Runs jobs queued using the at tool
+atd is a job scheduler daemon that runs jobs scheduled for later execution. These jobs are one-time task(not recurring) at a specific time scheduled using ‘at’ or ‘batch’ utility. 
