@@ -5,8 +5,7 @@
 ///< The license type -- this affects runtime behavior 
 MODULE_LICENSE("GPL"); 
   
-///< The author -- visible when you use modinfo 
-MODULE_AUTHOR("Akshat Sinha"); 
+
   
 ///< The description -- see modinfo 
 MODULE_DESCRIPTION("A simple Hello world LKM!"); 
