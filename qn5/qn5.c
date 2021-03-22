@@ -2,16 +2,9 @@
 #include <linux/kernel.h>     /* Needed for KERN_INFO */ 
 #include <linux/init.h>       /* Needed for the macros */ 
   
-///< The license type -- this affects runtime behavior 
-MODULE_LICENSE("GPL"); 
-  
 
-  
 ///< The description -- see modinfo 
 MODULE_DESCRIPTION("A simple Hello world LKM!"); 
-  
-///< The version of the module 
-MODULE_VERSION("0.1"); 
   
 static int __init hello_start(void) 
 { 
